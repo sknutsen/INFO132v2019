@@ -11,7 +11,7 @@ print(e)
 
 
 ## Oppgave 2
-
+print("Sondre Knutsen")
 
 
 ## Oppgave 3a
