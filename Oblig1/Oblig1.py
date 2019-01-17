@@ -1,4 +1,4 @@
-## Oppgave 1
+# Oppgave 1
 print("Sondre")
 print("Knutsen")
 
@@ -10,11 +10,11 @@ print(f)
 print(e)
 
 
-## Oppgave 2
+# Oppgave 2
 print("Sondre Knutsen")
 
 
-## Oppgave 3a
+# Oppgave 3a
 
 
-##Oppgave 3b
+# Oppgave 3b
