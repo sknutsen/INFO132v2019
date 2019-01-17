@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae232046-c086-468f-b133-fec17eb85038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Oblig1/Oblig1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig1/Temainnlevering1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/Lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/INFO132v2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO132v2019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig1/Oblig1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig1/Oblig1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/INFO132v2019$Oblig1.coverage" NAME="Oblig1 Coverage Results" MODIFIED="1547732180373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig1" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$Oblig1.coverage" NAME="Oblig1 Coverage Results" MODIFIED="1547733350950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Oblig1/Oblig1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -100,6 +95,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Week1" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig1" />
     </key>
   </component>
@@ -157,23 +153,46 @@
       <workItem from="1547425166299" duration="268000" />
       <workItem from="1547426556395" duration="98000" />
       <workItem from="1547731538973" duration="388000" />
-      <workItem from="1547731971269" duration="412000" />
+      <workItem from="1547731971269" duration="1319000" />
+      <workItem from="1547733882065" duration="345000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1547732420887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547732420888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1547732507453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547732507453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1547732565638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547732565638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1166000" />
+    <option name="totallyTimeSpent" value="2418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="205" width="1400" height="1000" extended-state="0" />
+    <frame x="365" y="184" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19328359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19626866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35409456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35409456" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -196,14 +215,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Week1/Lab.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Oblig1/Oblig1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
