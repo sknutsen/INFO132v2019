@@ -25,20 +25,9 @@ print(ascii_text)
 
 
 # Oppgave 3a
-def currency_print(x):
-    euro = x * 25.62 / 250
-    dollar = x * 29.05 / 250
-    print(x, "kroner tilsvarer", euro, "Euro og", dollar, "Dollar.\n")
-
-
-currency_print(250)
+x = 250
+print(x, "kroner tilsvarer " + '%.2f' % (x * 25.60 / 250) + " Euro og " + '%.2f' % (x * 29.05 / 250) + " Dollar\n")
 
 
 # Oppgave 3b
-def currency_print2(x):
-    euro = x * 25.62 / 250
-    dollar = x * 29.05 / 250
-    print("NOK", x, "tilsvarer", euro, u"\N{euro sign}", "og", dollar, u"\N{dollar sign}")
-
-
-currency_print2(250)
+print("NOK", x, "tilsvarer " + '%.2f' % (x * 25.60 / 250) + u"\N{euro sign} og " + '%.2f' % (x * 29.05 / 250) + u"\N{dollar sign}")
