@@ -2,6 +2,7 @@ import math
 import random
 
 # Temainnlevering 2
+# sondre knutsen (skn003)
 
 # Oppgave 1
 r = input("Radius: ")
@@ -16,5 +17,5 @@ print("That's", str(len(string) == int(guess)) + "!!\n")
 
 # Oppgave 3
 n = input("Gi meg et tall: ")
-rand = str(random.randint(8, 9))
+rand = str(random.randint(1, 9))
 print(n + rand + "/" + n + "=" + '%.1f' % (int(n + rand) / int(n)))
