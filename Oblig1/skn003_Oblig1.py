@@ -7,8 +7,8 @@ print("Knutsen\n")
 print("Sondre\nKnutsen\n")
 
 f = "Sondre"
-e = "\nKnutsen"
-print(f, e, "\n")
+e = "Knutsen\n"
+print(f, e, sep="\n")
 
 
 # Oppgave 2
@@ -26,8 +26,10 @@ print(ascii_text)
 
 # Oppgave 3a
 x = 250
-print(x, "kroner tilsvarer " + '%.2f' % (x * 25.60 / 250) + " Euro og " + '%.2f' % (x * 29.05 / 250) + " Dollar\n")
+euro = '%.2f' % (x * 25.60 / 250)
+dollar = '%.2f' % (x * 29.05 / 250)
+print(x, "kroner tilsvarer ", euro, " Euro og ", dollar, " Dollar\n", sep="")
 
 
 # Oppgave 3b
-print("NOK", x, "tilsvarer " + '%.2f' % (x * 25.60 / 250) + u"\N{euro sign} og " + '%.2f' % (x * 29.05 / 250) + u"\N{dollar sign}")
+print("NOK", x, "tilsvarer ", euro, u"\N{euro sign} og ", dollar, u"\N{dollar sign}",  sep="")
