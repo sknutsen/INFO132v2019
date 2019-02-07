@@ -25,8 +25,72 @@ def pi():
 
 
 pi()
+print('\n')
 
 
 # Oppgave 2
 # a)
+def temperatureConverter(d, u):
+    if u == 'C':
+        print(d * 1.8 + 32)
+    elif u == 'F':
+        print((d - 32) / 1.8)
 
+
+temperatureConverter(34, 'C')
+temperatureConverter(93.2, 'F')
+print('\n')
+
+
+# b)
+def temperatureConverter(d):
+    print(d * 1.8 + 32)
+
+
+temperatureConverter(34)
+print('\n')
+
+
+# Oppgave 3
+saldo = 500
+rentesats = 0.1
+
+
+def innskudd(n):
+    global saldo
+    global rentesats
+
+    saldo += n
+
+    if saldo >= 1000000:
+        rentesats = 0.2
+        print('Gratulerer med bonusrenta')
+
+
+def uttak(n):
+    global saldo
+    global rentesats
+
+    saldo -= n
+
+    if n > saldo:
+        print('Overtrekk')
+        return
+
+    if saldo < 1000000:
+        rentesats = 0.1
+        print('du har nå ordinær rente')
+
+
+def beregnRente():
+    global saldo
+    global rentesats
+
+    print(saldo * rentesats)
+
+
+def renteoppgjør():
+    global saldo
+    global rentesats
+
+    saldo += saldo * rentesats
