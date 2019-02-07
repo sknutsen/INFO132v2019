@@ -5,16 +5,16 @@
 # a)
 x = 8
 y = 10
-statement_1 = x != 7 and y <= 50
-statement_2 = (x > 7 or 50 < y) and (x > y or y < 100)
+expression_1 = x != 7 and y <= 50
+expression_2 = (x > 7 or 50 < y) and (x > y or y < 100)
 
-print("x != 7 and y <= 50 =", statement_1, "   (x > 7 or 50 < y) and (x > y or y < 100) =", statement_2)
+print("x != 7 and y <= 50 =", expression_1, "   (x > 7 or 50 < y) and (x > y or y < 100) =", expression_2)
 
 # b)
-statement_1 = not (x == 7 and y > 50)
-statement_2 = not (x <= 7 or 50 >= y) and (x > y or y < 100)
+expression_1 = not (x == 7 and y > 50)
+expression_2 = not (x <= 7 or 50 >= y) and (x > y or y < 100)
 
-print("not (x == 7 and y > 50) =", statement_1, "   (x > 7 or 50 < y) and (x > y or y < 100) =", statement_2)
+print("not (x == 7 and y > 50) =", expression_1, "   not (x <= 7 or 50 >= y) and (x > y or y < 100) =", expression_2)
 
 # Oppgave 2
 age = int(input("Oppgi alder: "))
