@@ -13,7 +13,10 @@ def pi(d):
         print("For mange desimaler!", m.pi, sep="\n")
 
 
-pi(13)
+pi(5)
+pi(12)
+pi(30)
+print("\n")
 
 
 # b)
@@ -21,5 +24,9 @@ def pi():
     print("{0:.2f}".format(m.pi))
 
 
+pi()
+
+
 # Oppgave 2
 # a)
+
