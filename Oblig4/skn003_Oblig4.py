@@ -71,11 +71,11 @@ def uttak(n):
     global saldo
     global rentesats
 
-    saldo -= n
-
     if n > saldo:
         print('Overtrekk')
         return
+
+    saldo -= n
 
     if saldo < 1000000:
         rentesats = 0.1
@@ -93,4 +93,24 @@ def renteoppgjør():
     global saldo
     global rentesats
 
-    saldo += saldo * rentesats
+    innskudd(rentesats)
+
+
+print("Saldo:", saldo)
+print("Rentesats:", rentesats)
+innskudd(300)
+print("Saldo:", saldo)
+uttak(100)
+print("Saldo:", saldo)
+beregnRente()
+print("Saldo:", saldo)
+renteoppgjør()
+print("Saldo:", saldo)
+innskudd(1000000)
+print("Saldo", saldo)
+print("Rentesats:", rentesats)
+uttak(500000)
+print("Saldo:", saldo)
+print("Rentesats:", rentesats)
+uttak(1000000)
+print("Saldo:", saldo)
