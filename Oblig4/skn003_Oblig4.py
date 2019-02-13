@@ -8,7 +8,7 @@ import math as m
 # a)
 def pi(d):
     if d <= len(str(m.pi)) - 2:
-        print(("{0:." + str(d) + "f}").format(m.pi))
+        print(("{0:." + str(d) + "f}").format(m.pi), '\n')
     elif d > len(str(m.pi)) - 2:
         print("For mange desimaler!", m.pi, sep="\n")
 
@@ -20,8 +20,11 @@ print("\n")
 
 
 # b)
-def pi():
-    print("{0:.2f}".format(m.pi))
+def pi(d=2):
+    if d <= len(str(m.pi)) - 2:
+        print(("{0:." + str(d) + "f}").format(m.pi), '\n')
+    elif d > len(str(m.pi)) - 2:
+        print("For mange desimaler!", m.pi, sep="\n")
 
 
 pi()
@@ -30,41 +33,45 @@ print('\n')
 
 # Oppgave 2
 # a)
-def temperatureConverter(d, u):
+def temperaturKonvertering(d, u):
     if u == 'C':
-        print(d * 1.8 + 32)
+        print(d * 1.8 + 32, '\n')
     elif u == 'F':
-        print((d - 32) / 1.8)
+        print((d - 32) / 1.8, '\n')
 
 
-temperatureConverter(34, 'C')
-temperatureConverter(93.2, 'F')
+temperaturKonvertering(34, 'C')
+temperaturKonvertering(93.2, 'F')
 print('\n')
 
 
 # b)
-def temperatureConverter(d):
-    print(d * 1.8 + 32)
+def temperaturKonvertering(d, u='C'):
+    if u == 'C':
+        print(d * 1.8 + 32, '\n')
+    elif u == 'F':
+        print((d - 32) / 1.8, '\n')
 
 
-temperatureConverter(34)
+temperaturKonvertering(34)
 print('\n')
 
 
 # Oppgave 3
 saldo = 500
-rentesats = 0.1
+rentesats = 0.01
 
 
 def innskudd(n):
     global saldo
     global rentesats
 
-    saldo += n
-
-    if saldo >= 1000000:
-        rentesats = 0.2
-        print('Gratulerer med bonusrenta')
+    if saldo <= 1000000 < saldo+n:
+        saldo += n
+        rentesats = 0.02
+        print('gratulerer, du får bonusrente')
+    else:
+        saldo += n
 
 
 def uttak(n):
@@ -72,45 +79,51 @@ def uttak(n):
     global rentesats
 
     if n > saldo:
-        print('Overtrekk')
-        return
-
-    saldo -= n
-
-    if saldo < 1000000:
-        rentesats = 0.1
-        print('du har nå ordinær rente')
+        print('overtrekk')
+    else:
+        if saldo > 1000000 > saldo-n:
+            rentesats = 0.01
+            print('du har nå ordinær rente')
+        saldo -= n
 
 
-def beregnRente():
+def beregnrente():
     global saldo
     global rentesats
 
-    print(saldo * rentesats)
+    print("Rente: ", rentesats * saldo)
 
 
 def renteoppgjør():
     global saldo
     global rentesats
 
-    innskudd(rentesats)
+    saldo = saldo + (rentesats * saldo)
+    print(saldo)
 
 
 print("Saldo:", saldo)
-print("Rentesats:", rentesats)
+print("\nRentesats:", rentesats)
 innskudd(300)
+print("\ninnskudd()")
 print("Saldo:", saldo)
 uttak(100)
+print("\nuttak()")
 print("Saldo:", saldo)
-beregnRente()
+beregnrente()
+print("\nberegnrente()")
 print("Saldo:", saldo)
 renteoppgjør()
+print("\nrenteoppgjør()")
 print("Saldo:", saldo)
 innskudd(1000000)
-print("Saldo", saldo)
-print("Rentesats:", rentesats)
-uttak(500000)
+print("\ninnskudd()")
 print("Saldo:", saldo)
-print("Rentesats:", rentesats)
+print("\nRentesats:", rentesats)
+uttak(500000)
+print("\nuttak()")
+print("Saldo:", saldo)
+print("\nRentesats:", rentesats)
 uttak(1000000)
+print("\nuttak()")
 print("Saldo:", saldo)
