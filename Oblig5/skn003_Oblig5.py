@@ -11,14 +11,14 @@ print("siste('Python'):", siste('Python'), '\n')
 
 
 # Oppgave 2
-def skrivSekvens(sekvens):
+def skrivsekvens(sekvens):
     for c in sekvens:
         print(c, end=" ")
 
 
-skrivSekvens([1, 2, 3, 4, 5])
+skrivsekvens([1, 2, 3, 4, 5])
 print('\n')
-skrivSekvens('abcdefg')
+skrivsekvens('abcdefg')
 print('\n')
 
 
