@@ -50,3 +50,5 @@ def gangetabell():
     """
     print(tabell)
 
+
+gangetabell()
