@@ -30,7 +30,8 @@ def renteutvikling(start, rentesats, slutt):
         y += 1
 
 
-renteutvikling(100, 5, 150)
+renteutvikling(1000, 3, 1200)
+print('\n')
 
 
 # Oppgave 4
@@ -44,8 +45,8 @@ def gangetabell():
     4 | 4  8 12 16 20 24 28 32 36
     5 | 5 10 15 20 25 30 35 40 45
     6 | 6 12 18 24 30 36 42 48 54
-    7 | 7 14 21 28 35 42 49 56 36
-    8 | 8 16 24 32 40 48 56 64 36
+    7 | 7 14 21 28 35 42 49 56 63
+    8 | 8 16 24 32 40 48 56 64 72
     9 | 9 18 27 36 45 54 63 72 81
     """
     print(tabell)
