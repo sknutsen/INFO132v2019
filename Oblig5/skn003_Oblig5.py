@@ -7,6 +7,9 @@ def siste(sekvens):
     return sekvens[-1]
 
 
+print("siste('Python'):", siste('Python'), '\n')
+
+
 # Oppgave 2
 def skrivSekvens(sekvens):
     for c in sekvens:
