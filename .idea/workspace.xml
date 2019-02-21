@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae232046-c086-468f-b133-fec17eb85038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Oblig6/Hovedinnlevering1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig5.coverage" NAME="skn003_Oblig5 Coverage Results" MODIFIED="1550155343448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig5" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig2.coverage" NAME="skn003_Oblig2 Coverage Results" MODIFIED="1548774378096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig2" />
-    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6.coverage" NAME="skn003_Oblig6 Coverage Results" MODIFIED="1550753355713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6.coverage" NAME="skn003_Oblig6 Coverage Results" MODIFIED="1550754446046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
     <SUITE FILE_PATH="coverage/INFO132v2019$Oblig1.coverage" NAME="Oblig1 Coverage Results" MODIFIED="1548337008508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig1" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig4.coverage" NAME="skn003_Oblig4 Coverage Results" MODIFIED="1550033384358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig4" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig3.coverage" NAME="skn003_Oblig3 Coverage Results" MODIFIED="1549296086544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig3" />
@@ -79,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Oblig6/skn003_Oblig6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="323">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -186,7 +183,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -353,7 +350,7 @@
       <workItem from="1550030897897" duration="2527000" />
       <workItem from="1550137147998" duration="522000" />
       <workItem from="1550151848239" duration="3633000" />
-      <workItem from="1550751029433" duration="3041000" />
+      <workItem from="1550751029433" duration="5213000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1547732420887</created>
@@ -488,11 +485,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550155417715</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit">
+      <created>1550754230127</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1550754230127</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit">
+      <created>1550754479804</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1550754479804</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45308000" />
+    <option name="totallyTimeSpent" value="47480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -574,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Oblig6/skn003_Oblig6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="323">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>

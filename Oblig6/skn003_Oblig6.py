@@ -40,6 +40,9 @@ def settKarakter():
         karakter = input("Karakter: ")
         if karakter == "":
             return
+        elif not karakter.lower() in ['a', 'b', 'c', 'd', 'e', 'f']:
+            print("not a valid input!")
+            settKarakter()
         Karakterer.append([emne, karakter])
         enterInput()
     else:
