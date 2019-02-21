@@ -67,27 +67,26 @@ def start():
 
 
 def enterInput():
-    inp = input("Velg handling (0 for meny)> ")
-    num = int(inp)
-    if num == 0:
+    num = input("Velg handling (0 for meny)> ")
+    if num == '0':
         menu()
-    elif num == 1:
+    elif num == '1':
         emneliste()
-    elif num == 2:
+    elif num == '2':
         addEmne()
-    elif num == 3:
+    elif num == '3':
         settKarakter()
-    elif num == 4:
+    elif num == '4':
         karakterSnitt()
-    elif num == 5:
+    elif num == '5':
         karakterliste()
-    elif num == 6:
+    elif num == '6':
         return
-    elif num == 7:
+    elif num == '7':
         return
-    elif num == 8:
+    elif num == '8':
         return
-    elif num == 9:
+    elif num == '9':
         return
     else:
         enterInput()
