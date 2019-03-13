@@ -42,6 +42,7 @@ def enterInput():
         enterInput()
 
 
+# 1 Emneliste
 def emneListe():
     print("Velg fag og/eller emnenivå (<enter> for alle)")
     fag = input(" - Fag: ").strip()
@@ -58,6 +59,7 @@ def emneListe():
     enterInput()
 
 
+# 2 Legg til emne
 def nyttEmne():
     emne = input(" - Emnekode: ").strip().upper()
     if len(emne) > 6 and emne[-3] in ['1', '2', '3']:
@@ -79,6 +81,7 @@ def nyttEmne():
         enterInput()
 
 
+# 3 Sett karakter
 def settKarakter():
     emne = input(" - Emnekode: ").strip().upper()
     if emne in Emner:
@@ -109,6 +112,7 @@ def settKarakter():
         enterInput()
 
 
+# 4 Karaktersnitt
 def karakterSnitt():
     print("Velg fag og/eller emnenivå (<enter> for alle)")
     fag = input(" - Fag: ").strip()
