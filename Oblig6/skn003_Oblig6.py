@@ -54,7 +54,7 @@ def removeVowels(filename=''):
     file.close()
     outputtext = ""
     for c in text:
-        if not c.lower() in ['a', 'e', 'i', 'o', 'u', 'y', 'æ', 'ø', 'å']:
+        if not c.lower() in 'aeiouyæøå':
             outputtext += c
 
     output = open(filename + "_NY.txt", 'w')
