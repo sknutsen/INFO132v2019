@@ -14,10 +14,11 @@ def menu():
  3 Sett karakter
  4 Karaktersnitt
  5 Karakterliste
- 6
- 7
- 8
- 9 Avslutt
+ 6 Fagkoder
+ 7 
+ 8 
+ 9 
+ 0 Avslutt
 --------------------'''
     print(menu_)
     enterInput()
@@ -38,7 +39,7 @@ def settKarakter():
     emne = input("Emnenavn: ")
     if emne in Emner:
         karakter = input("Karakter: ")
-        if karakter == "":
+        if karakter.strip() == "":
             return
         elif not karakter.lower() in ['a', 'b', 'c', 'd', 'e', 'f']:
             print("not a valid input!")
@@ -65,6 +66,11 @@ def karakterliste():
     enterInput()
 
 
+def fagkoder():
+    print(FagKoder)
+    enterInput()
+
+
 def start():
     menu()
 
@@ -84,12 +90,14 @@ def enterInput():
     elif num == '5':
         karakterliste()
     elif num == '6':
-        return
+        fagkoder()
     elif num == '7':
         return
     elif num == '8':
         return
     elif num == '9':
+        return
+    elif num == '0':
         return
     else:
         enterInput()
