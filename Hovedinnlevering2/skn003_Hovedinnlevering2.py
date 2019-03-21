@@ -319,7 +319,16 @@ class Møterom:
 
     def sett_koder(self):
         for a in Ansatte:
-            self.tilgang.append(a.kode)
+            if a.kode not in self.tilgang:
+                self.tilgang.append(a.kode)
+
+    def åpne(self, kode):
+        if kode in self.tilgang:
+            print("Rom", self.nr, "er åpent.")
+            return True
+        else:
+            print("Feil kode.")
+            return False
 
 
 class Kontor:
@@ -330,8 +339,42 @@ class Kontor:
         Rom.append(self)
 
     def skriv(self):
-        print(self.nr, self.tilgang, '\n -', self.eier)
+        if self.eier is not None:
+            print(self.nr, self.tilgang, '\n -', self.eier.navn)
+        else:
+            print(self.nr, self.tilgang)
 
     def sett_eier(self, eier):
+        old = self.eier
+        if old is not None:
+            self.tilgang.remove(old.kode)
         self.eier = eier
         self.tilgang.append(eier.kode)
+
+    def åpne(self, kode):
+        if kode in self.tilgang:
+            print("Rom", self.nr, "er åpent.")
+            return True
+        else:
+            print("Feil kode.")
+            return False
+
+
+m1 = Møterom(1, 10)
+m2 = Møterom(2, 20)
+k1 = Kontor(3)
+k2 = Kontor(4)
+k3 = Kontor(5)
+kari = Ansatt('Kari', 1111)
+ole = Ansatt('Ole', 2222)
+trond = Vaktmester('Trond', 3333)
+k1.sett_eier(kari)
+k2.sett_eier(ole)
+k3.sett_eier(trond)
+trond.gi_tilgang()
+k1.åpne(kari.kode)
+k1.åpne(ole.kode)
+for a in Ansatte:
+    a.skriv()
+for r in Rom:
+    r.skriv()

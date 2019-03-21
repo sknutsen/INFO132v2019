@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae232046-c086-468f-b133-fec17eb85038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/emner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/fagkoder.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig5.coverage" NAME="skn003_Oblig5 Coverage Results" MODIFIED="1550155343448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig5" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig2.coverage" NAME="skn003_Oblig2 Coverage Results" MODIFIED="1548774378096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig2" />
-    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Hovedinnlevering2.coverage" NAME="skn003_Hovedinnlevering2 Coverage Results" MODIFIED="1553163021500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hovedinnlevering2" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Hovedinnlevering2.coverage" NAME="skn003_Hovedinnlevering2 Coverage Results" MODIFIED="1553168255969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hovedinnlevering2" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6__1_.coverage" NAME="skn003_Oblig6 (1) Coverage Results" MODIFIED="1553159363084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6.coverage" NAME="skn003_Oblig6 Coverage Results" MODIFIED="1552557133600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
     <SUITE FILE_PATH="coverage/INFO132v2019$Oblig1.coverage" NAME="Oblig1 Coverage Results" MODIFIED="1548337008508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig1" />
@@ -84,29 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/emner.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="799">
+              <caret line="364" column="14" lean-forward="true" selection-start-line="364" selection-start-column="14" selection-end-line="364" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -143,9 +121,9 @@
         <option value="$PROJECT_DIR$/Oblig5/skn003_Oblig5.py" />
         <option value="$PROJECT_DIR$/Oblig6/telefon.txt" />
         <option value="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" />
-        <option value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
-        <option value="$PROJECT_DIR$/Hovedinnlevering2/emner.txt" />
         <option value="$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt" />
+        <option value="$PROJECT_DIR$/Hovedinnlevering2/emner.txt" />
+        <option value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
       </list>
     </option>
   </component>
@@ -396,7 +374,7 @@
       <workItem from="1550751029433" duration="5213000" />
       <workItem from="1552417625172" duration="14175000" />
       <workItem from="1552554465175" duration="13837000" />
-      <workItem from="1553151804622" duration="7643000" />
+      <workItem from="1553151804622" duration="12975000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1547732420887</created>
@@ -580,22 +558,36 @@
       <option name="project" value="LOCAL" />
       <updated>1553151891603</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit">
+      <created>1553163093161</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553163093161</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit">
+      <created>1553166537164</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1553166537164</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83135000" />
+    <option name="totallyTimeSpent" value="88467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34726688" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34726688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,24 +686,24 @@
     <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/fagkoder.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py">
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/emner.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt">
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="799">
+          <caret line="364" column="14" lean-forward="true" selection-start-line="364" selection-start-column="14" selection-end-line="364" selection-end-column="14" />
         </state>
       </provider>
     </entry>
