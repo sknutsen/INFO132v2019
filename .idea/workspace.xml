@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae232046-c086-468f-b133-fec17eb85038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/emner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/fagkoder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +18,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig5.coverage" NAME="skn003_Oblig5 Coverage Results" MODIFIED="1550155343448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig5" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig2.coverage" NAME="skn003_Oblig2 Coverage Results" MODIFIED="1548774378096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig2" />
-    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6__1_.coverage" NAME="skn003_Oblig6 (1) Coverage Results" MODIFIED="1552570758970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Hovedinnlevering2.coverage" NAME="skn003_Hovedinnlevering2 Coverage Results" MODIFIED="1553163021500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hovedinnlevering2" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6__1_.coverage" NAME="skn003_Oblig6 (1) Coverage Results" MODIFIED="1553159363084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6.coverage" NAME="skn003_Oblig6 Coverage Results" MODIFIED="1552557133600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
     <SUITE FILE_PATH="coverage/INFO132v2019$Oblig1.coverage" NAME="Oblig1 Coverage Results" MODIFIED="1548337008508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig1" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig4.coverage" NAME="skn003_Oblig4 Coverage Results" MODIFIED="1550033384358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig4" />
@@ -22,18 +28,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Oblig1/skn003_Oblig1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="14" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Oblig2/skn003_Oblig2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="323">
               <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -64,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Oblig5/skn003_Oblig5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -72,17 +69,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hovedinnlevering1/skn003_Hovedinnlevering1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="2975">
+              <caret line="175" column="36" lean-forward="true" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Oblig6/skn003_Oblig6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/emner.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Oblig6/skn003_Oblig6.py">
+        <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -119,6 +143,9 @@
         <option value="$PROJECT_DIR$/Oblig5/skn003_Oblig5.py" />
         <option value="$PROJECT_DIR$/Oblig6/telefon.txt" />
         <option value="$PROJECT_DIR$/Oblig6/skn003_Oblig6.py" />
+        <option value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
+        <option value="$PROJECT_DIR$/Hovedinnlevering2/emner.txt" />
+        <option value="$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt" />
       </list>
     </option>
   </component>
@@ -146,6 +173,11 @@
               <item name="INFO132v2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="INFO132v2019" type="462c0819:PsiDirectoryNode" />
               <item name="Hovedinnlevering1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INFO132v2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO132v2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Hovedinnlevering2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="INFO132v2019" type="b2602c69:ProjectViewProjectNode" />
@@ -198,11 +230,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Hovedinnlevering2" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig6" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig4" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig3" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig2" />
-      <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Week1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,8 +249,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.skn003_Oblig6 (1)">
-    <configuration name="skn003_Oblig3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.skn003_Hovedinnlevering2">
+    <configuration name="skn003_Hovedinnlevering2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="INFO132v2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +258,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oblig3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hovedinnlevering2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oblig3/skn003_Oblig3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.skn003_Hovedinnlevering2" />
         <item itemvalue="Python.skn003_Oblig6 (1)" />
         <item itemvalue="Python.skn003_Oblig6" />
         <item itemvalue="Python.skn003_Oblig5" />
         <item itemvalue="Python.skn003_Oblig4" />
-        <item itemvalue="Python.skn003_Oblig3" />
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +396,7 @@
       <workItem from="1550751029433" duration="5213000" />
       <workItem from="1552417625172" duration="14175000" />
       <workItem from="1552554465175" duration="13837000" />
+      <workItem from="1553151804622" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1547732420887</created>
@@ -540,22 +573,29 @@
       <option name="project" value="LOCAL" />
       <updated>1552571308326</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit">
+      <created>1553151891603</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553151891603</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75492000" />
+    <option name="totallyTimeSpent" value="83135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.34726688" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34726688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,6 +626,19 @@
     <entry file="file://$PROJECT_DIR$/Week1/Lab.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Oblig6/telefon.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oblig6/treSmåKinesere.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oblig6/treSmåKinesere.txt_NY.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Oblig1/skn003_Oblig1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -595,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Oblig2/skn003_Oblig2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="323">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -620,34 +673,45 @@
     <entry file="file://$PROJECT_DIR$/Oblig5/skn003_Oblig5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Oblig6/telefon.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Oblig6/treSmåKinesere.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Oblig6/treSmåKinesere.txt_NY.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hovedinnlevering1/skn003_Hovedinnlevering1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Oblig6/skn003_Oblig6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering1/skn003_Hovedinnlevering1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="36" lean-forward="true" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/fagkoder.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/emner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hovedinnlevering2/karakterer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

@@ -24,7 +24,7 @@ def editNumber():
     name = input("Navn: ").strip().lower()
     if name == '':
         return
-    file = open('telefon.txt', 'r+', encoding="utf-8")
+    file = open('telefon.txt', 'r', encoding="utf-8")
     text = file.readlines()
     output = []
     file.close()
