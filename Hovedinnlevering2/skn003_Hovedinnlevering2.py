@@ -5,8 +5,10 @@
 # Oppgave 1
 Emner = []
 EmnerNy = []
+
 FagKoder = []
 FagKoderNy = []
+
 Karakterer = []
 KaraktererNy = []
 
@@ -87,21 +89,21 @@ def start():
 def avslutt():
     def write_emner():
         file = open('emner.txt', 'w')
-        for e in Emner:
+        for e in EmnerNy:
             ln = e.to_text() + '\n'
             file.write(ln)
         file.close()
 
     def write_fag():
         file = open('fagkoder.txt', 'w')
-        for f in FagKoder:
+        for f in FagKoderNy:
             ln = f.to_text() + '\n'
             file.write(ln)
         file.close()
 
     def write_karakterer():
         file = open('karakterer.txt', 'w')
-        for k in Karakterer:
+        for k in KaraktererNy:
             ln = k.to_text() + '\n'
             file.write(ln)
         file.close()
@@ -282,4 +284,54 @@ def karaktersnitt():
 
 start()
 
+
 # Oppgave 2
+Ansatte = []
+Rom = []
+
+
+class Ansatt:
+    def __init__(self, navn, kode):
+        self.navn = navn
+        self.kode = kode
+        Ansatte.append(self)
+
+    def skriv(self):
+        print(self.navn, self.kode)
+
+
+class Vaktmester(Ansatt):
+    def gi_tilgang(self):
+        for r in Rom:
+            if self.kode not in r.tilgang:
+                r.tilgang.append(self.kode)
+
+
+class Møterom:
+    def __init__(self, nr, kapasitet):
+        self.nr = nr
+        self.tilgang = []
+        self.kapasitet = kapasitet
+        Rom.append(self)
+
+    def skriv(self):
+        print(self.nr, self.tilgang, '\n -', self.kapasitet)
+
+    def sett_koder(self):
+        for a in Ansatte:
+            self.tilgang.append(a.kode)
+
+
+class Kontor:
+    def __init__(self, nr):
+        self.nr = nr
+        self.tilgang = []
+        self.eier = None
+        Rom.append(self)
+
+    def skriv(self):
+        print(self.nr, self.tilgang, '\n -', self.eier)
+
+    def sett_eier(self, eier):
+        self.eier = eier
+        self.tilgang.append(eier.kode)
