@@ -4,13 +4,10 @@
 
 # Oppgave 1
 Emner = []
-EmnerNy = []
 
 FagKoder = []
-FagKoderNy = []
 
 Karakterer = []
-KaraktererNy = []
 
 
 class Emne:
@@ -19,10 +16,21 @@ class Emne:
 
     def add_to_list(self):
         Emner.append(self)
-        EmnerNy.append(self)
+
+    def in_list(self):
+        for e in Emner:
+            if e.emne == self.emne:
+                return True
+        return False
+
+    def get_fag(self):
+        for f in FagKoder:
+            if f.kode == self.emne[:-3]:
+                return f.to_text()
+        return ''
 
     def to_text(self):
-        return self.emne
+        return self.get_fag() + ' ' + self.emne
 
 
 class FagKode:
@@ -32,10 +40,15 @@ class FagKode:
 
     def add_to_list(self):
         FagKoder.append(self)
-        FagKoderNy.append(self)
+
+    def in_list(self):
+        for f in FagKoder:
+            if f.fag == self.fag:
+                return True
+        return False
 
     def to_text(self):
-        return self.fag + ' ' + self.kode
+        return self.fag
 
 
 class Karakter:
@@ -45,74 +58,63 @@ class Karakter:
 
     def add_to_list(self):
         Karakterer.append(self)
-        KaraktererNy.append(self)
+
+    def in_list(self):
+        for k in Karakterer:
+            if k.emne.emne == self.emne.emne:
+                return True
+        return False
 
     def to_text(self):
         return self.emne.to_text() + ' ' + self.karakter
 
 
 def start():
-    def read_emner():
-        file = open('emner.txt', 'r')
-        text = file.readlines()
-        file.close()
-        for e in text:
-            emne = Emne(e)
-            emne.add_to_list()
-
-    def read_fag():
-        file = open('fagkoder.txt', 'r')
-        text = file.readlines()
-        file.close()
-        for t in text:
-            f = t.split()
-            fagKode = FagKode(f[0], f[1])
-            fagKode.add_to_list()
-
-    def read_karakterer():
-        file = open('karakterer.txt', 'r')
-        text = file.readlines()
-        file.close()
+    try:
+        file = open('emneInfo.txt', 'r')
+    except FileNotFoundError:
+        open('emneInfo.txt', 'w').close()
+        file = open('emneInfo.txt', 'r')
+    text = file.readlines()
+    file.close()
+    if len(text) > 0:
         for t in text:
             k = t.split()
-            emne = Emne(k[0])
-            karakter = Karakter(emne, k[1])
-            karakter.add_to_list()
-
-    read_emner()
-    read_fag()
-    read_karakterer()
+            emne = Emne(k[1])
+            if not emne.in_list():
+                emne.add_to_list()
+            fagKode = FagKode(k[0], k[1][:-3])
+            if not fagKode.in_list():
+                fagKode.add_to_list()
+            try:
+                karakter = Karakter(emne, k[2])
+                if not karakter.in_list():
+                    karakter.add_to_list()
+            except IndexError:
+                pass
 
     menu()
 
 
 def avslutt():
-    def write_emner():
-        file = open('emner.txt', 'w')
-        for e in EmnerNy:
-            ln = e.to_text() + '\n'
-            file.write(ln)
-        file.close()
-
-    def write_fag():
-        file = open('fagkoder.txt', 'w')
-        for f in FagKoderNy:
-            ln = f.to_text() + '\n'
-            file.write(ln)
-        file.close()
-
-    def write_karakterer():
-        file = open('karakterer.txt', 'w')
-        for k in KaraktererNy:
-            ln = k.to_text() + '\n'
+    def write():
+        open('emneInfo.txt', 'w').close()
+        file = open('emneInfo.txt', 'w')
+        for emne in Emner:
+            found = False
+            ln = ''
+            for k in Karakterer:
+                if emne.emne == k.emne.emne:
+                    found = True
+                    ln = k.to_text() + '\n'
+            if not found:
+                ln = emne.to_text() + '\n'
             file.write(ln)
         file.close()
 
     response = input("Ønsker du å lagre endringene?(j/n) >")
     if response.lower() == 'j':
-        write_emner()
-        write_fag()
-        write_karakterer()
+        write()
     print("Takk for nå")
 
 
@@ -204,21 +206,23 @@ def sett_karakter():
                     toDelete = k
 
             Karakterer.remove(toDelete)
+            print('Karakter slettet!')
+            enter_input()
         elif karakter not in ['A', 'B', 'C', 'D', 'E', 'F'] or len(karakter) > 1:
             print("Ikke gyldig karakter!")
             enter_input()
+        else:
+            nyKarakter = Karakter(emne, karakter)
+            exists = False
+            for i in range(len(Karakterer)):
+                if Karakterer[i].emne == emne:
+                    Karakterer[i] = nyKarakter
+                    exists = True
 
-        nyKarakter = Karakter(emne, karakter)
-        exists = False
-        for i in range(len(Karakterer)):
-            if Karakterer[i].emne == emne:
-                Karakterer[i] = nyKarakter
-                exists = True
+            if not exists:
+                nyKarakter.add_to_list()
 
-        if not exists:
-            nyKarakter.add_to_list()
-
-        enter_input()
+            enter_input()
     else:
         print("Emne finnes ikke i emnelisten!")
         enter_input()

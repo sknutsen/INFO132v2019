@@ -1,0 +1,4 @@
+infovit INFO100
+infovit INFO212 A
+infovit INFO101
+lingvistikk LING123
