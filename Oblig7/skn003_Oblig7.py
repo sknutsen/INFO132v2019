@@ -69,5 +69,6 @@ def skrivInversSortert(di):
         print(x, result[x])
 
 
+del engelskeSiffer
 print('\n2c)')
 skrivInversSortert(i)
