@@ -6,18 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae232046-c086-468f-b133-fec17eb85038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Oblig8/Temainnlevering8.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oblig8/skn003_Oblig8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hovedinnlevering1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hovedinnlevering2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig4/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig5/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig6/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig7/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig7/skn003_Oblig7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig7/skn003_Oblig7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig5.coverage" NAME="skn003_Oblig5 Coverage Results" MODIFIED="1550155343448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig5" />
+    <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig8.coverage" NAME="skn003_Oblig8 Coverage Results" MODIFIED="1554971003518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig8" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig2.coverage" NAME="skn003_Oblig2 Coverage Results" MODIFIED="1548774378096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig2" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Hovedinnlevering2.coverage" NAME="skn003_Hovedinnlevering2 Coverage Results" MODIFIED="1554210941664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hovedinnlevering2" />
     <SUITE FILE_PATH="coverage/INFO132v2019$skn003_Oblig6__1_.coverage" NAME="skn003_Oblig6 (1) Coverage Results" MODIFIED="1553159363084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig6" />
@@ -104,11 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Oblig7/skn003_Oblig7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="1190">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Oblig8/skn003_Oblig8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -150,6 +151,7 @@
         <option value="$PROJECT_DIR$/Hovedinnlevering2/emneInfo.txt" />
         <option value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
         <option value="$PROJECT_DIR$/Oblig7/skn003_Oblig7.py" />
+        <option value="$PROJECT_DIR$/Oblig8/skn003_Oblig8.py" />
       </list>
     </option>
   </component>
@@ -166,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +224,17 @@
             <path>
               <item name="INFO132v2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="INFO132v2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INFO132v2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO132v2019" type="462c0819:PsiDirectoryNode" />
               <item name="Week1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,11 +246,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig8" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig7" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Hovedinnlevering2" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig6" />
       <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig4" />
-      <recent name="C:\Users\soknu\PycharmProjects\INFO132v2019\Oblig3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.skn003_Oblig7">
+  <component name="RunManager" selected="Python.skn003_Oblig8">
     <configuration name="skn003_Hovedinnlevering2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="INFO132v2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,28 +280,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hovedinnlevering2/skn003_Hovedinnlevering2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="skn003_Oblig5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="INFO132v2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oblig5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oblig5/skn003_Oblig5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,13 +354,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="skn003_Oblig8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="INFO132v2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oblig8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oblig8/skn003_Oblig8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.skn003_Oblig8" />
         <item itemvalue="Python.skn003_Oblig7" />
         <item itemvalue="Python.skn003_Hovedinnlevering2" />
         <item itemvalue="Python.skn003_Oblig6 (1)" />
         <item itemvalue="Python.skn003_Oblig6" />
-        <item itemvalue="Python.skn003_Oblig5" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +418,8 @@
       <workItem from="1553381681692" duration="650000" />
       <workItem from="1554206842579" duration="4247000" />
       <workItem from="1554366508548" duration="5502000" />
-      <workItem from="1554448479255" duration="105000" />
+      <workItem from="1554448479255" duration="474000" />
+      <workItem from="1554963531592" duration="6952000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1547732420887</created>
@@ -616,17 +624,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554371268040</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit">
+      <created>1554448604065</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554448604065</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100252000" />
+    <option name="totallyTimeSpent" value="107573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -743,8 +758,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Oblig7/skn003_Oblig7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="1190">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oblig8/skn003_Oblig8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
         </state>
       </provider>
     </entry>
