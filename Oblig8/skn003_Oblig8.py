@@ -1,6 +1,8 @@
+import re
+
 # Temainnlevering 8
 # Sondre Knutsen (skn003)
-import re
+
 
 # Oppgave 1
 Bøker = {('Blackburn', 'Modal logic'): ('logikk', '2002'),
