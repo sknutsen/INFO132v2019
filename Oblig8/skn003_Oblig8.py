@@ -32,6 +32,8 @@ def leggTilBok():
     title = input('Tittel: ')
     area = input('Fagfelt: ')
     year = input('Utgivelsesår: ')
+    if auth == '' and title == '' and area == '' and year == '':
+        return
     Bøker[(auth, title)] = (area, year)
 
 
@@ -43,6 +45,8 @@ skrivBøker()
 # Oppgave 1c)
 def finnForfatter():
     auth = input('Forfatter: ')
+    if auth == '':
+        return
     for ((au, t), (ar, y)) in Bøker.items():
         if auth.lower() == au.lower():
             print(t, y, sep=', ')
@@ -55,6 +59,8 @@ finnForfatter()
 # Oppgave 1d)
 def finnFagområde():
     area = input('Fagområde: ')
+    if area == '':
+        return
     for ((au, t), (ar, y)) in Bøker.items():
         if area.lower() == ar.lower():
             print(au, t, y, sep=', ')

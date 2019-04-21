@@ -1,7 +1,6 @@
 # Temainnlevering 7
 # Sondre Knutsen (skn003)
 
-
 # Oppgave 1
 Eksamen = {'INFO100': 'C', 'INFO104': 'B', 'INFO116': 'E', 'INFO180': 'A', 'INFO201': 'F', 'INFO280': 'C',
            'GEO101': 'D', 'GEO110': 'B', 'ADM101': 'A', 'ECON100': 'B', 'ECON201': 'C', 'GEO210': 'C', 'FAIL101': 'F'}
