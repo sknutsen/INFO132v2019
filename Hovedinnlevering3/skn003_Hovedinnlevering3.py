@@ -14,25 +14,73 @@ class WishSolitaire(object):
                  "\u266010", "\u266610", "\u266310", "\u266510", "\u2660J", "\u2666J", "\u2663J", "\u2665J",
                  "\u2660Q", "\u2666Q", "\u2663Q", "\u2665Q", "\u2660K", "\u2666K", "\u2663K", "\u2665K"]
 
-        self.distribute_cards(cards, self.decks['A'])
-        self.distribute_cards(cards, self.decks['B'])
-        self.distribute_cards(cards, self.decks['C'])
-        self.distribute_cards(cards, self.decks['D'])
-        self.distribute_cards(cards, self.decks['E'])
-        self.distribute_cards(cards, self.decks['F'])
-        self.distribute_cards(cards, self.decks['G'])
-        self.distribute_cards(cards, self.decks['H'])
-
-    def distribute_cards(self, cards, deck):
-        while len(deck) < 4 and len(cards) > 0:
+        for key in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
             ra.shuffle(cards)
-            deck.append(cards.pop())
+            while len(self.decks[key]) < 4 and len(cards) > 0:
+                self.decks[key].append(cards.pop())
 
+    # Start the game
     def start(self):
         print("Trekk to kort (x for å gå tilbake til menyen)")
         self.initialised = True
         self.current_decks()
         self.next_round()
+
+    # next_round lets you choose which decks you wish to draw cards from
+    def next_round(self):
+        inp = input("Velg bunker: ")[:2].upper()
+        if inp == "X":
+            menu(self)
+        elif inp[0] != inp[1]:
+            if inp[0] in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] and inp[1] in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
+                if self.decks[inp[0]][0][1] == self.decks[inp[1]][0][1]:
+                    self.draw_cards(inp[0], inp[1])
+                else:
+                    print("Kortene har ikke samme verdi, trekk på nytt")
+                    self.next_round()
+        else:
+            print("Venligst velg to forskjellige bunker.")
+            self.next_round()
+
+    # current_decks prints out the current state of the decks
+    def current_decks(self):
+        print(" A", "B", "C", "D", "E", "F", "G", "H", sep="   ")
+        top_cards = ""
+        for key in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
+            try:
+                top_cards += self.decks[key][0]
+                top_cards += "  "
+            except IndexError:
+                top_cards += "[ ]"
+                top_cards += "  "
+        print(top_cards)
+        print(" " + str(len(self.decks['A'])), len(self.decks['B']), len(self.decks['C']), len(self.decks['D']),
+              len(self.decks['E']), len(self.decks['F']), len(self.decks['G']), len(self.decks['H']), sep="   ")
+
+    # draw_cards removes the first card from deck_1 and deck_2
+    def draw_cards(self, deck_1, deck_2):
+        self.decks[deck_1].pop(0)
+        self.decks[deck_2].pop(0)
+
+        top_cards = []
+        deck_sizes = 0
+        for key in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
+            deck_sizes += len(self.decks[key])
+            try:
+                top_cards.append(self.decks[key][0][1])
+            except IndexError:
+                pass
+
+        if deck_sizes == 0:
+            print("Alle bunkene er tomme!")
+            menu(self)
+        elif len(top_cards) != len(set(top_cards)):
+            self.current_decks()
+            self.next_round()
+        else:
+            self.current_decks()
+            print("Ingen mulige trekk!")
+            menu(self)
 
     # Oppgave b)
     def save(self):
@@ -68,59 +116,6 @@ class WishSolitaire(object):
             line_num += 1
         print("Game loaded!")
         self.start()
-
-    def next_round(self):
-        inp = input("Velg bunker: ")[:2].upper()
-        if inp == "X":
-            menu(self)
-        elif inp[0] != inp[1]:
-            if inp[0] in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] and inp[1] in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
-                if self.decks[inp[0]][0][1] == self.decks[inp[1]][0][1]:
-                    self.draw_cards(inp[0], inp[1])
-                else:
-                    print("Kortene har ikke samme verdi, trekk på nytt")
-                    self.next_round()
-        else:
-            print("Venligst velg to forskjellige bunker.")
-            self.next_round()
-
-    def current_decks(self):
-        print(" A", "B", "C", "D", "E", "F", "G", "H", sep="   ")
-        top_cards = ""
-        for key in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
-            try:
-                top_cards += self.decks[key][0]
-                top_cards += "  "
-            except IndexError:
-                top_cards += "[ ]"
-                top_cards += "  "
-        print(top_cards)
-        print(" " + str(len(self.decks['A'])), len(self.decks['B']), len(self.decks['C']), len(self.decks['D']),
-              len(self.decks['E']), len(self.decks['F']), len(self.decks['G']), len(self.decks['H']), sep="   ")
-
-    def draw_cards(self, deck_1, deck_2):
-        self.decks[deck_1].pop(0)
-        self.decks[deck_2].pop(0)
-
-        top_cards = []
-        deck_sizes = 0
-        for key in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
-            deck_sizes += len(self.decks[key])
-            try:
-                top_cards.append(self.decks[key][0][1])
-            except IndexError:
-                pass
-
-        if deck_sizes == 0:
-            print("Alle bunkene er tomme!")
-            menu(self)
-        elif len(top_cards) != len(set(top_cards)):
-            self.current_decks()
-            self.next_round()
-        else:
-            self.current_decks()
-            print("Ingen mulige trekk!")
-            menu(self)
 
 
 def menu(game=WishSolitaire()):
